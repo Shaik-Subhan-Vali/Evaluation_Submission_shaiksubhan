@@ -25,16 +25,21 @@ public class Handling_iframes {
 			@Test
 			public void tc1() throws InterruptedException {
 				
+				//JavascriptExecutor interface was initiated  for scrolling 
+				
 				JavascriptExecutor js = (JavascriptExecutor) driver;
 	          
 				WebElement ifr = driver.findElement(By.id("courses-iframe"));
 				
 				js.executeScript("arguments[0].scrollIntoView(true)",ifr);
-				driver.switchTo().frame(ifr);
-				driver.findElement(By.xpath("(//a[@class=\"theme-btn\"])[1]")).click();	
-				Thread.sleep(2000);
-				driver.switchTo().defaultContent();		
 				
+				//switched to frame using js
+				driver.switchTo().frame(ifr);
+				
+				driver.findElement(By.xpath("(//a[@class=\"theme-btn\"])[1]")).click();	
+				
+				Thread.sleep(2000);
+				driver.switchTo().defaultContent();					
 							
 			}
 			
