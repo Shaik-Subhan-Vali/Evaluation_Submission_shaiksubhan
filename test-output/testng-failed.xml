@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="My_Package.Handling_Alerts">
+      <class name="My_Package.Handling_iframes">
         <methods>
           <include name="tc1"/>
           <include name="teardwon"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- My_Package.Handling_Alerts -->
+      </class> <!-- My_Package.Handling_iframes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

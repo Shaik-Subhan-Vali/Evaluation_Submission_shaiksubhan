@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-06T16:50:26 IST" name="Default suite" finished-at="2024-07-06T16:50:38 IST" duration-ms="12532">
+  <suite started-at="2024-07-06T18:15:25 IST" name="Default suite" finished-at="2024-07-06T18:15:33 IST" duration-ms="7921">
     <groups>
     </groups>
-    <test started-at="2024-07-06T16:50:26 IST" name="Default test" finished-at="2024-07-06T16:50:38 IST" duration-ms="12532">
-      <class name="My_Package.Handling_Alerts">
-        <test-method is-config="true" signature="setup()[pri:0, instance:My_Package.Handling_Alerts@738dc9b]" started-at="2024-07-06T16:50:26 IST" name="setup" finished-at="2024-07-06T16:50:31 IST" duration-ms="5538" status="PASS">
+    <test started-at="2024-07-06T18:15:25 IST" name="Default test" finished-at="2024-07-06T18:15:33 IST" duration-ms="7921">
+      <class name="My_Package.Handling_iframes">
+        <test-method is-config="true" signature="setup()[pri:0, instance:My_Package.Handling_iframes@738dc9b]" started-at="2024-07-06T18:15:25 IST" name="setup" finished-at="2024-07-06T18:15:30 IST" duration-ms="5190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc1()[pri:0, instance:My_Package.Handling_Alerts@738dc9b]" started-at="2024-07-06T16:50:31 IST" name="tc1" finished-at="2024-07-06T16:50:38 IST" duration-ms="6913" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:My_Package.Handling_iframes@738dc9b]" started-at="2024-07-06T18:15:30 IST" name="tc1" finished-at="2024-07-06T18:15:33 IST" duration-ms="2654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-      </class> <!-- My_Package.Handling_Alerts -->
+      </class> <!-- My_Package.Handling_iframes -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
